@@ -10059,6 +10059,8 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <segment>
 <wire x1="190.5" y1="96.52" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
 <label x="193.04" y="96.52" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$2" pin="A"/>
+<junction x="190.5" y="96.52"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="7"/>
@@ -10075,12 +10077,16 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <segment>
 <wire x1="190.5" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
 <label x="193.04" y="93.98" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$2" pin="B"/>
+<junction x="190.5" y="93.98"/>
 </segment>
 </net>
 <net name="TX_POGO" class="0">
 <segment>
 <wire x1="190.5" y1="91.44" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
 <label x="193.04" y="91.44" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$2" pin="C"/>
+<junction x="190.5" y="91.44"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="TX"/>
@@ -10092,12 +10098,16 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <segment>
 <wire x1="190.5" y1="88.9" x2="193.04" y2="88.9" width="0.1524" layer="91"/>
 <label x="193.04" y="88.9" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$2" pin="D"/>
+<junction x="190.5" y="88.9"/>
 </segment>
 </net>
 <net name="RX_OPO" class="0">
 <segment>
 <wire x1="190.5" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
 <label x="193.04" y="101.6" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$1" pin="D"/>
+<junction x="190.5" y="101.6"/>
 </segment>
 </net>
 <net name="RX_POGO" class="0">
@@ -10105,6 +10115,7 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <pinref part="S2" gate="G$1" pin="C"/>
 <wire x1="190.5" y1="104.14" x2="193.04" y2="104.14" width="0.1524" layer="91"/>
 <label x="193.04" y="104.14" size="1.27" layer="95" xref="yes"/>
+<junction x="190.5" y="104.14"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="RX"/>
@@ -10122,6 +10133,7 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <pinref part="S2" gate="G$1" pin="B"/>
 <wire x1="193.04" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
 <label x="193.04" y="106.68" size="1.27" layer="95" xref="yes"/>
+<junction x="190.5" y="106.68"/>
 </segment>
 </net>
 <net name="RX_EDGE" class="0">
@@ -10129,6 +10141,7 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <pinref part="S2" gate="G$1" pin="A"/>
 <wire x1="190.5" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="193.04" y="109.22" size="1.27" layer="95" xref="yes"/>
+<junction x="190.5" y="109.22"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="8"/>
@@ -10177,23 +10190,29 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <segment>
 <wire x1="190.5" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
 <label x="193.04" y="63.5" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$4" pin="D"/>
+<junction x="190.5" y="63.5"/>
 </segment>
 </net>
 <net name="TCK_EDGE" class="0">
-<segment>
-<wire x1="190.5" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
-<label x="193.04" y="83.82" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="9"/>
 <wire x1="129.54" y1="129.54" x2="127" y2="129.54" width="0.1524" layer="91"/>
 <label x="127" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="S2" gate="G$3" pin="A"/>
+<wire x1="190.5" y1="83.82" x2="193.04" y2="83.82" width="0.1524" layer="91"/>
+<label x="193.04" y="83.82" size="1.27" layer="95" xref="yes"/>
+<junction x="190.5" y="83.82"/>
+</segment>
 </net>
 <net name="TCK_MINIPROG" class="0">
 <segment>
-<wire x1="190.5" y1="81.28" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
-<label x="193.04" y="81.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="190.5" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
+<label x="198.12" y="81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$3" pin="B"/>
+<junction x="190.5" y="81.28"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="TCK"/>
@@ -10205,6 +10224,8 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <segment>
 <wire x1="190.5" y1="78.74" x2="193.04" y2="78.74" width="0.1524" layer="91"/>
 <label x="193.04" y="78.74" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$3" pin="C"/>
+<junction x="190.5" y="78.74"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="TCK"/>
@@ -10216,12 +10237,16 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <segment>
 <wire x1="190.5" y1="76.2" x2="193.04" y2="76.2" width="0.1524" layer="91"/>
 <label x="193.04" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$3" pin="D"/>
+<junction x="190.5" y="76.2"/>
 </segment>
 </net>
 <net name="!RST_EDGE" class="0">
 <segment>
 <wire x1="190.5" y1="71.12" x2="193.04" y2="71.12" width="0.1524" layer="91"/>
 <label x="193.04" y="71.12" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$4" pin="A"/>
+<junction x="190.5" y="71.12"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="10"/>
@@ -10233,6 +10258,8 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <segment>
 <wire x1="190.5" y1="68.58" x2="193.04" y2="68.58" width="0.1524" layer="91"/>
 <label x="193.04" y="68.58" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$4" pin="B"/>
+<junction x="190.5" y="68.58"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="RST#"/>
@@ -10244,6 +10271,8 @@ Source: http://www.maxim-ic.com .. MAX1551-MAX1555.pdf</description>
 <segment>
 <wire x1="190.5" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <label x="193.04" y="66.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="S2" gate="G$4" pin="C"/>
+<junction x="190.5" y="66.04"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="!RST"/>
