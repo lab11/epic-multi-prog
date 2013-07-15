@@ -9772,9 +9772,15 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <attribute name="DIGIKEY" value="768-1007-1-ND"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="0.1u"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="DIGIKEY" value="445-1316-1-ND"/>
+</part>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="DIGIKEY" value="445-1316-1-ND"/>
+</part>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="0.1u">
+<attribute name="DIGIKEY" value="445-1316-1-ND"/>
+</part>
 <part name="C18" library="SparkFun" deviceset="CAP_POL" device="1206" value="10u">
 <attribute name="DIGIKEY" value="478-1655-1-ND"/>
 </part>
@@ -9800,50 +9806,80 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="R1" library="rcl" deviceset="R-US_" device="R0603" value="470"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="berkeley-epic" deviceset="EPIC-PROG-PORT" device=""/>
-<part name="J3" library="berkeley-epic" deviceset="MEC1-105-02-XX-XX-D-A" device=""/>
-<part name="U2" library="maxim" deviceset="MAX1555" device=""/>
+<part name="J3" library="berkeley-epic" deviceset="MEC1-105-02-XX-XX-D-A" device="">
+<attribute name="DIGIKEY" value="SAM8115-ND"/>
+</part>
+<part name="U2" library="maxim" deviceset="MAX1555" device="">
+<attribute name="DIGIKEY" value="MAX1555EZK+TCT-ND"/>
+</part>
 <part name="D4" library="SparkFun" deviceset="LED" device="0603" value="YELLOW"/>
 <part name="R4" library="rcl" deviceset="R-US_" device="R0603" value="470"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="S2" library="switches" deviceset="CK_SS-44D04-G4/4P4T" device=""/>
+<part name="S2" library="switches" deviceset="CK_SS-44D04-G4/4P4T" device="">
+<attribute name="DIGIKEY" value="CKN10389-ND"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="J4" library="headers" deviceset="TAG_CONNECT_HEADER_EPIC" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="DIGIKEY" value="445-1321-1-ND"/>
+</part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="DIGIKEY" value="445-1321-1-ND"/>
+</part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="SJ1" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="S4" library="switches" deviceset="COPAL_CJS-1200TA/SPDT" device=""/>
 <part name="S5" library="switches" deviceset="COPAL_CJS-1200TA/SPDT" device=""/>
 <part name="S6" library="switches" deviceset="COPAL_CJS-1200TA/SPDT" device=""/>
 <part name="S7" library="switches" deviceset="TE_SSA12/SPDT" device=""/>
-<part name="J5" library="connector" deviceset="MICRO_USB_B_MALE_HIROSE_ZX80-B-5S" device=""/>
+<part name="J5" library="connector" deviceset="MICRO_USB_B_MALE_HIROSE_ZX80-B-5S" device="">
+<attribute name="MOUSER" value="798-ZX80-B-5S"/>
+</part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="U3" library="maxim" deviceset="MAX1555" device=""/>
+<part name="U3" library="maxim" deviceset="MAX1555" device="">
+<attribute name="DIGIKEY" value="MAX1555EZK+TCT-ND"/>
+</part>
 <part name="D5" library="SparkFun" deviceset="LED" device="0603" value="YELLOW"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="R0603" value="470"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="DIGIKEY" value="445-1321-1-ND"/>
+</part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="DIGIKEY" value="445-1321-1-ND"/>
+</part>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="U4" library="maxim" deviceset="MAX1555" device=""/>
+<part name="U4" library="maxim" deviceset="MAX1555" device="">
+<attribute name="DIGIKEY" value="MAX1555EZK+TCT-ND"/>
+</part>
 <part name="D6" library="SparkFun" deviceset="LED" device="0603" value="YELLOW"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="R0603" value="470"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="DIGIKEY" value="445-1321-1-ND"/>
+</part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="DIGIKEY" value="445-1321-1-ND"/>
+</part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
-<part name="U5" library="maxim" deviceset="MAX1555" device=""/>
+<part name="U5" library="maxim" deviceset="MAX1555" device="">
+<attribute name="DIGIKEY" value="MAX1555EZK+TCT-ND"/>
+</part>
 <part name="D7" library="SparkFun" deviceset="LED" device="0603" value="YELLOW"/>
 <part name="R7" library="rcl" deviceset="R-US_" device="R0603" value="470"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="DIGIKEY" value="445-1321-1-ND"/>
+</part>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="1u"/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="1u">
+<attribute name="DIGIKEY" value="445-1321-1-ND"/>
+</part>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -9859,9 +9895,15 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <attribute name="DIGIKEY" x="88.9" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="106.68" y="15.24"/>
-<instance part="C1" gate="G$1" x="35.56" y="25.4"/>
-<instance part="C2" gate="G$1" x="48.26" y="25.4"/>
-<instance part="C3" gate="G$1" x="68.58" y="25.4"/>
+<instance part="C1" gate="G$1" x="35.56" y="25.4">
+<attribute name="DIGIKEY" x="35.56" y="25.4" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="48.26" y="25.4">
+<attribute name="DIGIKEY" x="48.26" y="25.4" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="68.58" y="25.4">
+<attribute name="DIGIKEY" x="68.58" y="25.4" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="C18" gate="G$1" x="58.42" y="25.4">
 <attribute name="DIGIKEY" x="58.42" y="25.4" size="1.27" layer="96" display="off"/>
 </instance>
@@ -9890,53 +9932,83 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <instance part="R1" gate="G$1" x="142.24" y="60.96" rot="R90"/>
 <instance part="GND7" gate="1" x="142.24" y="15.24"/>
 <instance part="J1" gate="G$1" x="40.64" y="132.08"/>
-<instance part="J3" gate="G$1" x="139.7" y="134.62"/>
-<instance part="U2" gate="G$1" x="30.48" y="104.14"/>
+<instance part="J3" gate="G$1" x="139.7" y="134.62">
+<attribute name="DIGIKEY" x="139.7" y="134.62" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
+<instance part="U2" gate="G$1" x="30.48" y="104.14">
+<attribute name="DIGIKEY" x="30.48" y="104.14" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="D4" gate="G$1" x="50.8" y="86.36" rot="R180"/>
 <instance part="R4" gate="G$1" x="50.8" y="99.06" rot="R90"/>
 <instance part="GND9" gate="1" x="43.18" y="86.36"/>
 <instance part="GND10" gate="1" x="78.74" y="129.54"/>
-<instance part="S2" gate="G$1" x="180.34" y="104.14"/>
+<instance part="S2" gate="G$1" x="180.34" y="104.14">
+<attribute name="DIGIKEY" x="180.34" y="104.14" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="S2" gate="G$2" x="180.34" y="91.44"/>
 <instance part="S2" gate="G$3" x="180.34" y="78.74"/>
 <instance part="S2" gate="G$4" x="180.34" y="66.04"/>
 <instance part="GND11" gate="1" x="167.64" y="121.92"/>
 <instance part="J4" gate="G$1" x="137.16" y="167.64"/>
 <instance part="GND12" gate="1" x="149.86" y="154.94"/>
-<instance part="C4" gate="G$1" x="17.78" y="96.52"/>
+<instance part="C4" gate="G$1" x="17.78" y="96.52">
+<attribute name="DIGIKEY" x="17.78" y="96.52" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="GND13" gate="1" x="17.78" y="86.36"/>
-<instance part="C5" gate="G$1" x="58.42" y="101.6"/>
+<instance part="C5" gate="G$1" x="58.42" y="101.6">
+<attribute name="DIGIKEY" x="58.42" y="101.6" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="GND14" gate="1" x="58.42" y="86.36"/>
 <instance part="SJ1" gate="1" x="121.92" y="134.62" smashed="yes"/>
 <instance part="S4" gate="G$1" x="175.26" y="48.26"/>
 <instance part="S5" gate="G$1" x="175.26" y="33.02"/>
 <instance part="S6" gate="G$1" x="210.82" y="38.1"/>
 <instance part="S7" gate="G$1" x="142.24" y="96.52"/>
-<instance part="J5" gate="G$1" x="48.26" y="167.64" rot="MR0"/>
+<instance part="J5" gate="G$1" x="48.26" y="167.64" rot="MR0">
+<attribute name="MOUSER" x="48.26" y="167.64" size="1.27" layer="96" rot="MR0" align="bottom-center" display="off"/>
+</instance>
 <instance part="GND15" gate="1" x="68.58" y="154.94"/>
-<instance part="U3" gate="G$1" x="195.58" y="162.56"/>
+<instance part="U3" gate="G$1" x="195.58" y="162.56">
+<attribute name="DIGIKEY" x="195.58" y="162.56" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="D5" gate="G$1" x="215.9" y="144.78" rot="R180"/>
 <instance part="R5" gate="G$1" x="215.9" y="157.48" rot="R90"/>
 <instance part="GND16" gate="1" x="208.28" y="144.78"/>
-<instance part="C6" gate="G$1" x="182.88" y="154.94"/>
+<instance part="C6" gate="G$1" x="182.88" y="154.94">
+<attribute name="DIGIKEY" x="182.88" y="154.94" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="GND17" gate="1" x="182.88" y="144.78"/>
-<instance part="C7" gate="G$1" x="223.52" y="160.02"/>
+<instance part="C7" gate="G$1" x="223.52" y="160.02">
+<attribute name="DIGIKEY" x="223.52" y="160.02" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="GND18" gate="1" x="223.52" y="144.78"/>
-<instance part="U4" gate="G$1" x="279.4" y="167.64"/>
+<instance part="U4" gate="G$1" x="279.4" y="167.64">
+<attribute name="DIGIKEY" x="279.4" y="167.64" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="D6" gate="G$1" x="299.72" y="149.86" rot="R180"/>
 <instance part="R6" gate="G$1" x="299.72" y="162.56" rot="R90"/>
 <instance part="GND19" gate="1" x="292.1" y="149.86"/>
-<instance part="C8" gate="G$1" x="266.7" y="160.02"/>
+<instance part="C8" gate="G$1" x="266.7" y="160.02">
+<attribute name="DIGIKEY" x="266.7" y="160.02" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="GND20" gate="1" x="266.7" y="149.86"/>
-<instance part="C9" gate="G$1" x="307.34" y="165.1"/>
+<instance part="C9" gate="G$1" x="307.34" y="165.1">
+<attribute name="DIGIKEY" x="307.34" y="165.1" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="GND21" gate="1" x="307.34" y="149.86"/>
-<instance part="U5" gate="G$1" x="276.86" y="119.38"/>
+<instance part="U5" gate="G$1" x="276.86" y="119.38">
+<attribute name="DIGIKEY" x="276.86" y="119.38" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="D7" gate="G$1" x="297.18" y="101.6" rot="R180"/>
 <instance part="R7" gate="G$1" x="297.18" y="114.3" rot="R90"/>
 <instance part="GND22" gate="1" x="289.56" y="101.6"/>
-<instance part="C10" gate="G$1" x="264.16" y="111.76"/>
+<instance part="C10" gate="G$1" x="264.16" y="111.76">
+<attribute name="DIGIKEY" x="264.16" y="111.76" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="GND23" gate="1" x="264.16" y="101.6"/>
-<instance part="C11" gate="G$1" x="304.8" y="116.84"/>
+<instance part="C11" gate="G$1" x="304.8" y="116.84">
+<attribute name="DIGIKEY" x="304.8" y="116.84" size="1.27" layer="96" align="bottom-center" display="off"/>
+</instance>
 <instance part="GND24" gate="1" x="304.8" y="101.6"/>
 </instances>
 <busses>
