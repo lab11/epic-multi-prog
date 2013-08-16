@@ -2,7 +2,7 @@ Epic Multi Prog
 ===============
 
 [
-![emp](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog_500x374.jpg)
+![emp](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog_250x187.jpg)
 ](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog.jpg)
 [
 ![emp_connected](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog_connected_338x374.jpg)
