@@ -2,10 +2,10 @@ Epic Multi Prog
 ===============
 
 [
-![cc_case](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog_500x374.jpg.jpg)
+![emp](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog_500x374.jpg)
 ](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog.jpg)
 [
-![cc_open](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog_connected_338x374.jpg)
+![emp_connected](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog_connected_338x374.jpg)
 ](https://raw.github.com/lab11/epic-multi-prog/master/media/epic_multi_prog_connected.jpg)
 
 Programmer hardware for programming the epic family of devices.
