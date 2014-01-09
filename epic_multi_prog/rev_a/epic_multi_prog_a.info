@@ -1,2 +1,4 @@
-REV: A
-TITLE: Epic Multi Programmer
+author: Brad Campbell
+rev: A
+description: USB programmer for the epic platforms. Supports the various programming headers used with epic.
+title: Epic Multi Programmer
